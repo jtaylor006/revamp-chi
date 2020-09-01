@@ -8,12 +8,12 @@ body {
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color:#89ff00;
+    border-color: #89ff00;
     border-width: 5px;
     width: 5%;
-        }
+}
 
-h1{
+h1 {
     font-size: 2em;
     text-align: center;
 }
@@ -23,9 +23,9 @@ h3 {
     text-align: center;
 }
 
-p{
+p {
     font-size: 1.25em;
-    line-height:23px;
+    line-height: 23px;
 }
 
 li {
@@ -35,12 +35,15 @@ li {
 table {
     border-collapse: separate;
     border-spacing: 0 15px;
-  }
-  th {
-      font-size: 1.4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-size: 1.4em;
     background-color: #646363;
     color: white;
-  }
+}
 
 td {
     font-size: 1.25em;
@@ -48,4 +51,4 @@ td {
     text-align: center;
     border: 1px solid black;
     padding: 5px;
-  }
+}

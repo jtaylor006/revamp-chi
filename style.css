@@ -6,6 +6,13 @@ body {
     color: #505962;
 }
 
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
 /* Navigation  */
 .navbar {
     text-transform: uppercase;
@@ -28,12 +35,12 @@ body {
     padding-top: .8rem;
 }
 
-.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #89ff00;
 }
 
-
+/* Home */
 .home-inner {
     background-image: url(img/run.jpg);
 }
@@ -70,7 +77,125 @@ body {
     color: black;
 }
 
+/* Who */
+.narrow {
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
 
+.narrow h1 {
+    font-size: 2.4rem;
+}
+
+/* Why & Financing */
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #89ff00;
+    margin: 0 auto 2rem;
+}
+
+.problem svg.svg-inline--fa {
+    color: #89ff00;
+}
+
+.problem h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+
+.problem p {
+    font-size: 1.1rem;
+}
+
+/* Summaries */
+.fixed {
+    background-image: url(img/grass.jpg);
+    z-index: -1;
+}
+
+.dark {
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    color: white;
+    padding: 7rem 2rem;
+}
+
+.fixed-background h3 {
+    margin-bottom: 2rem;
+}
+
+.fixed-background p {
+    margin-top: 1.5rem;
+}
+
+/* Contact */
+footer {
+    background: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+}
+
+footer img {
+    height: 8rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: #89ff00;
+}
+
+footer a:hover {
+    color: white;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .caption h1 {
+        font-size: 2.3rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .btn-lg {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .narrow h1 {
+        font-size: 1.5rem;
+    }
+
+    footer img {
+        height: 6rem;
+        margin: 1.5rem 0;
+    }
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
