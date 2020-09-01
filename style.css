@@ -33,9 +33,9 @@ body {
     color: #89ff00;
 }
 
-/* Landing Page */
+
 .home-inner {
-    background-image: url("img/run.jpg");
+    background-image: url(img/run.jpg);
 }
 
 .caption {
