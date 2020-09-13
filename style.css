@@ -6,6 +6,10 @@ body {
     color: #505962;
 }
 
+.lead {
+    font-size: 1.3rem;
+}
+
 .offset:before {
     display: block;
     content: "";
@@ -88,11 +92,21 @@ body {
     font-size: 2.4rem;
 }
 
+.avi {
+    width: 50%;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
 /* Why & Financing */
 .jumbotron {
     margin-bottom: 0;
-    padding: 2rem 0 3.5rem;
+    /* padding: 2rem 0 3.5rem; */
     border-radius: 0;
+}
+
+.problem {
+    padding-bottom: 3rem;
 }
 
 h3.heading {
@@ -114,13 +128,49 @@ h3.heading {
 }
 
 .problem h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     padding-bottom: .4rem;
 }
 
 .problem p {
     font-size: 1.1rem;
+}
+
+.solution h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem; 
+}
+
+.solution p {
+    font-size: 1.1rem;
+}
+
+.pic {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* Product */
+.light {
+    color: #505962;
+    padding: 7rem 2rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
 }
 
 /* Summaries */
